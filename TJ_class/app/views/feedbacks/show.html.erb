@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rate service from 1 to 10:</strong>
+  <%= @feedback.rate_service_from_1_to_10 %>
+</p>
+
+<p>
+  <strong>Name of your representative:</strong>
+  <%= @feedback.name_of_your_representative %>
+</p>
+
+<p>
+  <strong>Would you use us again:</strong>
+  <%= @feedback.would_you_use_us_again %>
+</p>
+
+<%= link_to 'Edit', edit_feedback_path(@feedback) %> |
+<%= link_to 'Back', feedbacks_path %>

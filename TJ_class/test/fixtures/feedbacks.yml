@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rate_service_from_1_to_10: 1
+  name_of_your_representative: MyString
+  would_you_use_us_again: MyString
+
+two:
+  rate_service_from_1_to_10: 1
+  name_of_your_representative: MyString
+  would_you_use_us_again: MyString

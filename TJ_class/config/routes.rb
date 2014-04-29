@@ -1,4 +1,6 @@
 TJClass::Application.routes.draw do
+  resources :feedbacks
+
   resources :products
 
   resources :users

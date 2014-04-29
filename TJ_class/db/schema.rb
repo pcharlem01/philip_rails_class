@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140429130237) do
+ActiveRecord::Schema.define(version: 20140429145342) do
+
+  create_table "feedbacks", force: true do |t|
+    t.integer  "rate_service_from_1_to_10"
+    t.string   "name_of_your_representative"
+    t.string   "would_you_use_us_again"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "products", force: true do |t|
     t.string   "name"
